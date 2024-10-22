@@ -1,9 +1,8 @@
 const siteMetadata = {
-  title: 'cwarcup - Curtis Warcup',
-  author: 'Curtis Warcup',
-  headerTitle: 'Curtis Warcup - Web Developer',
-  description:
-    'Personal blog and web development notes created by Curtis Warcup. Also contains projects and personal interests.',
+  title: 'Portfolio Example',
+  author: 'Alvina & Stephanie',
+  headerTitle: 'Hi',
+  description: 'A personal portfolio template',
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://cwarcup.com',

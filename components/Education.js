@@ -21,7 +21,7 @@ export default function Education() {
   const education = [
     {
       degree: 'Bachelor of Doomscrolling',
-      institution: 'University of Toronto',
+      institution: 'Brain Rot University',
       date: 'September 2020 - April 2026 (if I make it)',
       description: 'GPA: Bad :/',
     },
