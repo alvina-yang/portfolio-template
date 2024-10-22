@@ -1,5 +1,5 @@
 import headerNavLinks from '@/data/headerNavLinks'
-import Logo from '@/data/logo-header.svg'
+import logo from 'public/static/images/logo.png'
 import Link from './Link'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
@@ -7,6 +7,7 @@ import MobileNav from './MobileNav'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import { Fragment, useEffect, useRef, useState } from 'react'
+import Image from 'next/image'
 
 const LayoutWrapper = ({ children }) => {
   const [stuck, setStuck] = useState(false)
@@ -37,7 +38,7 @@ const LayoutWrapper = ({ children }) => {
         <div className="mx-auto flex max-w-3xl items-center justify-between bg-cardBg bg-opacity-5 px-4 sm:px-6 xl:max-w-5xl xl:px-0">
           <Link href="/" aria-label="Curtis Warcup">
             <div className="mr-3">
-              <Logo />
+              <Image src={logo} alt="Logo" height={70} width={200} />
             </div>
           </Link>
           <div className="flex items-center text-base leading-5">

@@ -98,7 +98,7 @@ const skills = [
 const Skills = () => {
   return (
     <>
-      <span className="font-poppins title-font text-3xl font-bold">My Top Skills</span>
+      <span className="font-poppins title-font text-3xl font-bold">Our Top Skills</span>
       <motion.div
         initial="hidden"
         whileInView="visible"
