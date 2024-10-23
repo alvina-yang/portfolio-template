@@ -10,12 +10,12 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.jpg',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'curtis.gwarcup@gmail.com',
-  github: 'https://github.com/Cwarcup',
-  twitter: 'https://twitter.com/curtiswarcup',
-  facebook: 'https://www.facebook.com/curtis.wwwwww',
+  email: 'noemail@email.com',
+  github: 'https://github.com',
+  twitter: 'https://twitter.com',
+  facebook: 'https://www.facebook.com/',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com/in/curtiswarcup/',
+  linkedin: 'https://www.linkedin.com',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

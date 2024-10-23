@@ -44,7 +44,7 @@ export default function Hero() {
       <p className="mt-6 mb-4 text-base text-gray-600 dark:text-gray-400">
         Alvina and Stephanie here. This is our template portfolio.
       </p>
-      <Button href="/static/Curtis_Warcup_Resume.pdf">Download My Resume</Button>
+      <Button href="/static/Resume.png">Download My Resume</Button>
       <div className="mt-6 flex gap-6">
         <SocialLink
           href="https://github.com/Cwarcup"
