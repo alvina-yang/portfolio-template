@@ -3,6 +3,8 @@ import { useState } from 'react'
 import { IoLogoGithub, IoLogoLinkedin, IoMail, IoCall } from 'react-icons/io5'
 import Notification from './Notification'
 import Button from './Button'
+import Image from 'next/image'
+import Sparkle from 'react-sparkle'
 
 function SocialLink({ icon: Icon, ...props }) {
   return (
@@ -37,15 +39,58 @@ function CopyToClipboard({ icon: Icon, text, ...props }) {
 
 export default function Hero() {
   return (
-    <div className="mb-5 max-w-2xl">
-      <h1 className="text-4xl font-bold tracking-tight text-gray-800 dark:text-zinc-100 sm:text-5xl">
+    <div className="mx-auto mb-5 max-w-2xl">
+      <h1 className="text-center text-4xl font-bold tracking-tight text-gray-800 dark:text-zinc-100 sm:text-5xl">
         Hola, Bonjour, 你好, Hello!
       </h1>
-      <p className="mt-6 mb-4 text-base text-gray-600 dark:text-gray-400">
+      <p className="mt-6 mb-4 text-center text-base text-gray-600 dark:text-gray-400">
         Alvina and Stephanie here. This is our template portfolio.
       </p>
-      <Button href="/static/Resume.png">Download My Resume</Button>
-      <div className="mt-6 flex gap-6">
+      <div className="mt-6 grid grid-cols-1 justify-center gap-y-4 lg:grid-cols-2 lg:gap-x-32">
+        <div className="relative mx-auto">
+          <div className="pointer-events-none absolute inset-0 z-10">
+            <Sparkle
+              color={['#FFC0CB', '#FFF']}
+              count={10}
+              minSize={7}
+              maxSize={10}
+              fadeOutSpeed={80}
+              flickerSpeed={'slowest'}
+            />
+          </div>
+          <Image
+            src="/static/images/alvina-fun.jpg"
+            alt="Alvina"
+            width={300}
+            height={300}
+            className="rounded-full"
+          />
+        </div>
+        <div className="relative mx-auto">
+          <div className="pointer-events-none absolute inset-0 z-10">
+            <Sparkle
+              color={['#FFC0CB', '#FFF']}
+              count={10}
+              minSize={7}
+              maxSize={10}
+              fadeOutSpeed={80}
+              flickerSpeed={'slowest'}
+            />
+          </div>
+          <Image
+            src="/static/images/stephanie-fun.jpg"
+            alt="Stephanie"
+            width={300}
+            height={300}
+            className="rounded-full"
+          />
+        </div>
+      </div>
+
+      <div className="flex flex-col items-center">
+        <Button href="/static/Resume.png">Download OUR Resume!!!</Button>
+      </div>
+      <div className="mt-6 flex justify-center gap-6">
         <SocialLink
           href="https://github.com/Cwarcup"
           aria-label="Check out my Github"
