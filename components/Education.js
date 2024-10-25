@@ -5,7 +5,7 @@ function EducationCard({ degree, institution, date, description, isVisible }) {
     <div
       className={`transform transition-transform ${
         isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-      } mb-8 rounded-lg bg-gray-800 p-6 text-white shadow-lg duration-1000 ease-in-out`}
+      } mb-8 rounded-lg bg-darkSecondary p-6 text-white shadow-lg duration-1000 ease-in-out`}
     >
       <h3 className="text-xl font-semibold ">{institution}</h3>
       <p className="text-sm  text-gray-600 dark:text-gray-400">{degree}</p>

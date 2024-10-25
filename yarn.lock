@@ -1091,6 +1091,11 @@
   resolved "https://registry.npmjs.org/@fontsource/inter/-/inter-4.5.2.tgz"
   integrity sha512-4LLfZYr5dRsobtC9JNkATL5OwOqrxs2tF29eNljjogxWXm4tlHxRo4dgOFTlWxQOxcj5Zv7dM8IMiSoOqMGy3g==
 
+"@fontsource/source-sans-pro@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/source-sans-pro/-/source-sans-pro-5.1.0.tgz#17f39585dcfe9726effae887d1200b2fa8b8861a"
+  integrity sha512-GJijHmnPKwA1G8MqUVOZzbIW8jLBFsJGugAb5/IikvTHHmLp+pJy+g8EhyWbfR8pI04i/EStzW0AzOv0KQEhzg==
+
 "@headlessui/react@^1.6.5":
   version "1.6.5"
   resolved "https://registry.npmjs.org/@headlessui/react/-/react-1.6.5.tgz"

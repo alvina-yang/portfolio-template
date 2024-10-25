@@ -33,7 +33,7 @@ module.exports = {
         '9/16': '56.25%',
       },
       maxWidth: {
-        '330': '330px',
+        330: '330px',
       },
       lineHeight: {
         11: '2.75rem',
@@ -48,14 +48,14 @@ module.exports = {
         '8.5xl': '7rem',
       },
       fontFamily: {
-        sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
+        sans: ['"Source Sans Pro"', ...defaultTheme.fontFamily.sans], // Use Source Sans Pro as default sans font
       },
       colors: {
         primary: colors.sky,
-        gray: colors.neutral,
-        cardBg: '#0F141A',
+        gray: colors.blueGray,
+        cardBg: '#1d2547',
         logoColor: '#46CDCF',
-        darkSecondary: '#25282A',
+        darkSecondary: '#1a2338',
       },
       typography: (theme) => ({
         DEFAULT: {
